@@ -12,3 +12,10 @@ body{
   min-height: 100vh;
   background: #5372F0;
 }
+.wrapper{
+  width: 605px;
+  background: #fff;
+  border-radius: 15px;
+  padding: 30px 30px 25px;
+  box-shadow: 0 12px 35px rgba(0,0,0,0.1);
+}
