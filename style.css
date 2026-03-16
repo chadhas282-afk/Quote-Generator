@@ -27,3 +27,10 @@ header, .content :where(i, p, span){
   font-weight: 600;
   text-align: center;
 }
+.wrapper .content{
+  margin: 35px 0;
+}
+.content .quote-area{
+  display: flex;
+  justify-content: center;
+}
