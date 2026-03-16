@@ -50,3 +50,10 @@ header, .content :where(i, p, span){
   text-align: center;
   word-break: break-all;
 }
+.content .author{
+  display: flex;
+  font-size: 18px;
+  margin-top: 20px;
+  font-style: italic;
+  justify-content: flex-end;
+}
