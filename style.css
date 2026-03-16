@@ -34,3 +34,9 @@ header, .content :where(i, p, span){
   display: flex;
   justify-content: center;
 }
+.quote-area i{
+  font-size: 15px;
+}
+.quote-area i:first-child{
+  margin: 3px 10px 0 0;
+}
