@@ -45,3 +45,8 @@ header, .content :where(i, p, span){
   margin: 0 0 3px 10px;
   align-items: flex-end;
 }
+.quote-area .quote{
+  font-size: 22px;
+  text-align: center;
+  word-break: break-all;
+}
