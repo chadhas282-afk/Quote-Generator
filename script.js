@@ -13,4 +13,5 @@ function randomQuote(){
 }
 copyBtn.addEventListener("click", ()=>{
     navigator.clipboard.writeText(quoteText.innerText);
-}
+});
+quoteBtn.addEventListener("click", randomQuote);
