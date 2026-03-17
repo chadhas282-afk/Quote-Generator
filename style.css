@@ -57,3 +57,7 @@ header, .content :where(i, p, span){
   font-style: italic;
   justify-content: flex-end;
 }
+.author span:first-child{
+  margin: -7px 5px 0 0;
+  font-family: monospace;
+}
