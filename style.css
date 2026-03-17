@@ -61,3 +61,6 @@ header, .content :where(i, p, span){
   margin: -7px 5px 0 0;
   font-family: monospace;
 }
+.wrapper .buttons{
+  border-top: 1px solid #ccc;
+}
