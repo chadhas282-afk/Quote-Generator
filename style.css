@@ -94,3 +94,13 @@ ul li:is(:hover, .active){
   color: #fff;
   background: #5372F0;
 }
+.buttons button{
+  border: none;
+  color: #fff;
+  outline: none;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 13px 22px;
+  border-radius: 30px;
+  background: #5372F0;
+}
