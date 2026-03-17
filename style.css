@@ -64,3 +64,9 @@ header, .content :where(i, p, span){
 .wrapper .buttons{
   border-top: 1px solid #ccc;
 }
+.buttons .features{
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
