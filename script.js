@@ -7,5 +7,7 @@ function randomQuote(){
     fetch("http://api.quotable.io/random").then(response => response.json()).then(result => {
         quoteText.innerText = result.content;
          authorName.innerText = result.author;
-    }
+         quoteBtn.innerText = "New Quote";
+    });
+
 }
