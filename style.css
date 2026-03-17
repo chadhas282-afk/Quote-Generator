@@ -70,3 +70,6 @@ header, .content :where(i, p, span){
   align-items: center;
   justify-content: space-between;
 }
+.features ul{
+  display: flex;
+}
