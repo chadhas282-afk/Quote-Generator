@@ -90,3 +90,7 @@ header, .content :where(i, p, span){
 .features ul li:first-child{
   margin-left: 0;
 }
+ul li:is(:hover, .active){
+  color: #fff;
+  background: #5372F0;
+}
