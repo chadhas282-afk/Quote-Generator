@@ -73,3 +73,17 @@ header, .content :where(i, p, span){
 .features ul{
   display: flex;
 }
+.features ul li{
+  margin: 0 5px;
+  height: 47px;
+  width: 47px;
+  display: flex;
+  cursor: pointer;
+  color: #5372F0;
+  list-style: none;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #5372F0;
+  transition: all 0.3s ease;
+}
