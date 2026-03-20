@@ -1,25 +1,23 @@
 const quoteText = document.querySelector(".quote"),
       quoteBtn = document.querySelector("button"),
-      authorName = document.querySelector(".name"),
       copyBtn = document.querySelector(".copy");
 
 function randomQuote() {
     quoteBtn.innerText = "Loading..."; 
-    fetch("http://api.quotable.io/random")
+    fetch("https://api.adviceslip.com/advice")
         .then(res => res.json())
         .then(result => {
-            quoteText.innerText = result.content;
-            authorName.innerText = result.author;
+            quoteText.innerText = result.slip.advice;
             quoteBtn.innerText = "New Quote";
         })
         .catch(() => {
-            quoteText.innerText = "Something went wrong. Check your connection!";
+            quoteText.innerText = "The service is a bit busy. Try again in a moment!";
             quoteBtn.innerText = "New Quote";
         });
 }
 
 copyBtn.addEventListener("click", () => {
-    navigator.clipboard.writeText(`${quoteText.innerText} — ${authorName.innerText}`);
+    navigator.clipboard.writeText(`${quoteText.innerText}`);
     alert("Quote copied to clipboard!");
 });
 
