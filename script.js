@@ -5,7 +5,7 @@ const quoteText = document.querySelector(".quote"),
 
 function randomQuote() {
     quoteBtn.innerText = "Loading..."; 
-    fetch("https://api.quotable.io/random")
+    fetch("http://api.quotable.io/random")
         .then(res => res.json())
         .then(result => {
             quoteText.innerText = result.content;
